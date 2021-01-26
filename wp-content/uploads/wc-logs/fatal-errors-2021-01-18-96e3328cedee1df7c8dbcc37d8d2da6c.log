@@ -1,0 +1,41 @@
+2021-01-18T09:00:58+00:00 CRITICAL Uncaught Error: Class 'Automattic\Jetpack\Connection\Rest_Authentication' not found in C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php:684
+Stack trace:
+#0 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php(414): Jetpack->__construct()
+#1 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\load-jetpack.php(88): Jetpack::init()
+#2 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\jetpack.php(174): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localan\wp-admin\includes\plugin.php(670): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(416): activate_plugin('jetpack/jetpack...')
+#5 C:\xampp\htdocs\localan\wp-includes\rest-api\class-wp-rest-server.php(1160): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 C:\xampp\htdocs\localan\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request di C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php pada baris 684
+
+2021-01-18T09:17:44+00:00 CRITICAL Uncaught Error: Class 'Automattic\Jetpack\Connection\Rest_Authentication' not found in C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php:684
+Stack trace:
+#0 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php(414): Jetpack->__construct()
+#1 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\load-jetpack.php(88): Jetpack::init()
+#2 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\jetpack.php(174): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localan\wp-admin\includes\plugin.php(670): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(416): activate_plugin('jetpack/jetpack...')
+#5 C:\xampp\htdocs\localan\wp-includes\rest-api\class-wp-rest-server.php(1160): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 C:\xampp\htdocs\localan\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request di C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php pada baris 684
+
+2021-01-18T09:51:01+00:00 CRITICAL Uncaught Error: Class 'Automattic\Jetpack\Connection\Rest_Authentication' not found in C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php:684
+Stack trace:
+#0 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php(414): Jetpack->__construct()
+#1 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\load-jetpack.php(88): Jetpack::init()
+#2 C:\xampp\htdocs\localan\wp-content\plugins\jetpack\jetpack.php(174): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\localan\wp-admin\includes\plugin.php(670): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(416): activate_plugin('jetpack/jetpack...')
+#5 C:\xampp\htdocs\localan\wp-includes\rest-api\class-wp-rest-server.php(1160): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 C:\xampp\htdocs\localan\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request di C:\xampp\htdocs\localan\wp-content\plugins\jetpack\class.jetpack.php pada baris 684
+
+2021-01-18T09:51:19+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\API\OnboardingPlugins' not found in C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\InstallJPAndWCSPlugins.php:114
+Stack trace:
+#0 C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\InstallJPAndWCSPlugins.php(103): Automattic\WooCommerce\Admin\Notes\InstallJPAndWCSPlugins->install_and_activate_plugin('jetpack')
+#1 C:\xampp\htdocs\localan\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Notes\InstallJPAndWCSPlugins->install_jp_and_wcs_plugins(Object(Automattic\WooCommerce\Admin\Notes\Note))
+#2 C:\xampp\htdocs\localan\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\localan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\NoteActions.php(101): do_action('woocommerce_not...', Object(Automattic\WooCommerce\Admin\Notes\Note))
+# di C:\xampp\htdocs\localan\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\InstallJPAndWCSPlugins.php pada baris 114
+
+2021-01-18T09:55:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di C:\xampp\htdocs\localan\wp-admin\includes\class-wp-filesystem-direct.php pada baris 82
+
